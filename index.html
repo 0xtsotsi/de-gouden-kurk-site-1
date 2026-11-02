@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="De Gouden Kurk is de drankenhandel aan het Raadhuisplein 6 in Rozenburg. Bekijk het conceptassortiment en bestel straks online met afhalen of bezorging.">
+  <meta name="theme-color" content="#3b1817">
+  <meta name="color-scheme" content="light">
+  <title>De Gouden Kurk | Drankenhandel in Rozenburg</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/instrument-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Direct naar de inhoud</a>
+
+  <noscript>
+    <div class="noscript-note">De webwinkel en het filtersysteem werken zonder JavaScript niet. Je kunt De Gouden Kurk ook bellen op <a href="tel:+31644999844">06 44999844</a>.</div>
+  </noscript>
+
+  <div class="concept-bar">
+    <div class="shell concept-bar__inner">
+      <p><span class="concept-bar__dot" aria-hidden="true"></span>Websiteconcept. Liveassortiment, voorraad en prijzen worden nog aangevuld.</p>
+      <a href="tel:+31644999844">06 44999844</a>
+    </div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="shell site-header__inner">
+      <a class="brand" href="#top" aria-label="De Gouden Kurk, terug naar boven">
+        <img class="brand__mark" src="assets/logo.svg" width="48" height="48" alt="">
+        <span class="brand__text">
+          <strong>De Gouden Kurk</strong>
+          <small>Drankenhandel in Rozenburg</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Hoofdnavigatie">
+        <a href="#assortiment">Assortiment</a>
+        <a href="#feestpakketten">Feestpakketten</a>
+        <a href="#bezorgen">Bezorgen &amp; ophalen</a>
+        <a href="#over-ons">De winkel</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="site-header__actions">
+        <button class="header-action" type="button" data-focus-search>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+          <span>Zoeken</span>
+        </button>
+        <button class="header-action header-action--cart" type="button" data-open-cart aria-label="Open winkelmand, 0 artikelen">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l-1 12H7L6 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg>
+          <span>Mand</span>
+          <span class="cart-count" id="cart-count" hidden>0</span>
+        </button>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+          <span>Menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="shell hero__grid">
+        <div class="hero__copy">
+          <p class="hero__place">Drankenhandel in het hart van Rozenburg</p>
+          <h1 id="hero-title">Je slijterij om de hoek.<br><span>Jouw drank, straks online.</span></h1>
+          <p class="hero__lead">Meer dan 340 spiritualiën, persoonlijk geselecteerd. Kies online, haal op in de winkel of kies voor lokale bezorging.</p>
+          <div class="hero__actions">
+            <a class="button button--gold" href="#assortiment">Bekijk het assortiment</a>
+            <a class="button button--ghost-light" href="tel:+31644999844">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.5 10 8l-2 2c1.2 2.8 3.2 4.8 6 6l2-2 4.5 2.8c.3.2.5.5.5.9 0 2-1.6 3.3-3.6 3.3C9.8 21 3 14.2 3 6.6 3 4.6 4.3 3 6.3 3c.3 0 .6.2.9.5Z"></path></svg>
+              Bel de slijterij
+            </a>
+          </div>
+          <dl class="hero__facts">
+            <div>
+              <dt>Assortiment</dt>
+              <dd>Whisky, gin, rum &amp; meer</dd>
+            </div>
+            <div>
+              <dt>Adres</dt>
+              <dd>Raadhuisplein 6</dd>
+            </div>
+            <div>
+              <dt>Advies</dt>
+              <dd>Persoonlijk in de winkel</dd>
+            </div>
+          </dl>
+        </div>
+
+        <figure class="hero-photo">
+          <div class="hero-photo__image">
+            <img src="assets/store-interior.jpg" width="1440" height="810" alt="De Gouden Kurk in Rozenburg met twee medewerkers tussen de dranken">
+            <div class="pour-moment" aria-hidden="true">
+              <svg viewBox="0 0 150 136" focusable="false">
+                <g class="pour-moment__bottle">
+                  <path d="M28 55h30v45c0 7-5 12-12 12H40c-7 0-12-5-12-12V55Z"></path>
+                  <path d="m28 55 17-20h13v20"></path>
+                  <path d="M45 35V21h18v14"></path>
+                  <path d="M63 21h10v9H63z"></path>
+                  <path class="pour-moment__label" d="M34 63h19v25H34z"></path>
+                </g>
+                <path class="pour-moment__stream" d="M72 31c8 9 10 19 23 31"></path>
+                <path class="pour-moment__glass" d="M86 62h34l-5 45H91l-5-45Z"></path>
+                <path class="pour-moment__liquid" d="M89 80h28l-4 25H93l-4-25Z"></path>
+                <path class="pour-moment__shine" d="M96 68v31"></path>
+              </svg>
+            </div>
+          </div>
+          <figcaption>
+            <span>De Gouden Kurk aan het Raadhuisplein</span>
+            <button type="button" data-open-credits>Beeldcredits</button>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section catalog" id="assortiment" aria-labelledby="catalog-title">
+      <div class="shell">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Online bestellen</p>
+            <h2 id="catalog-title">Kies je drank. Wij pakken de rest aan.</h2>
+          </div>
+          <p class="section-intro">Deze twaalf producten vormen een voorbeeldcatalogus. Voor de live webshop voegen we het actuele assortiment, de voorraad en de verkoopprijzen toe.</p>
+        </div>
+
+        <div class="catalog-toolbar">
+          <div class="catalog-toolbar__row">
+            <label class="search-field" for="product-search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-4-4"></path></svg>
+              <span class="visually-hidden">Zoek in het voorbeeldassortiment</span>
+              <input id="product-search" type="search" placeholder="Zoek op drank of merk" autocomplete="off">
+            </label>
+            <label class="sort-field" for="product-sort">
+              <span>Sorteren</span>
+              <select id="product-sort" name="sort">
+                <option value="name-asc">Naam A tot Z</option>
+                <option value="price-asc">Prijs laag naar hoog</option>
+                <option value="price-desc">Prijs hoog naar laag</option>
+              </select>
+            </label>
+          </div>
+          <div class="category-filters" id="category-filters" role="group" aria-label="Filter het assortiment">
+            <button type="button" data-category="all" aria-pressed="true">Alles</button>
+            <button type="button" data-category="whisky" aria-pressed="false">Whisky</button>
+            <button type="button" data-category="gin" aria-pressed="false">Gin</button>
+            <button type="button" data-category="wodka" aria-pressed="false">Wodka</button>
+            <button type="button" data-category="rum" aria-pressed="false">Rum</button>
+            <button type="button" data-category="tequila" aria-pressed="false">Tequila</button>
+            <button type="button" data-category="cognac" aria-pressed="false">Cognac</button>
+            <button type="button" data-category="likeuren" aria-pressed="false">Likeuren</button>
+            <button type="button" data-category="vermouth" aria-pressed="false">Vermouth</button>
+          </div>
+        </div>
+
+        <div class="catalog-status-row">
+          <p id="result-status" role="status" aria-live="polite">12 voorbeelden gevonden</p>
+          <p>Echte productfoto's · demonstratieprijzen</p>
+        </div>
+
+        <div class="product-grid" id="product-grid"></div>
+
+        <div class="empty-state" id="empty-state" hidden>
+          <div class="empty-state__mark" aria-hidden="true">GK</div>
+          <h3>Geen drank gevonden</h3>
+          <p>Probeer een ander merk of kies een andere categorie.</p>
+          <button class="button button--ink" type="button" id="reset-filters">Alle dranken tonen</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="packages" id="feestpakketten" aria-labelledby="packages-title">
+      <div class="shell packages__grid">
+        <div class="packages__intro">
+          <p class="section-kicker section-kicker--light">Conceptpakketten</p>
+          <h2 id="packages-title">Een feest begint met een goed idee.</h2>
+          <p>Van een borrel op de verjaardag tot een tafel vol voor het hele team. Wij stellen een drankensamenstelling samen die bij het moment past.</p>
+          <a class="button button--gold" href="tel:+31644999844">Bespreek je feestpakket</a>
+        </div>
+
+        <div class="package-list">
+          <article class="package-item">
+            <div class="package-item__number" aria-hidden="true">01</div>
+            <div class="package-item__body">
+              <p>6 flessen</p>
+              <h3>De Gouden mix</h3>
+              <span>Een verrassende mix van whisky, gin en likeuren voor een groep.</span>
+            </div>
+            <a href="tel:+31644999844" aria-label="Bespreek het conceptpakket De Gouden mix">Bespreek dit idee</a>
+          </article>
+          <article class="package-item">
+            <div class="package-item__number" aria-hidden="true">02</div>
+            <div class="package-item__body">
+              <p>4 flessen</p>
+              <h3>Whisky proeverij</h3>
+              <span>Verschillende stijlen, proefkaarten en advies over de volgorde.</span>
+            </div>
+            <a href="tel:+31644999844" aria-label="Bespreek het conceptpakket Whisky proeverij">Bespreek dit idee</a>
+          </article>
+          <article class="package-item">
+            <div class="package-item__number" aria-hidden="true">03</div>
+            <div class="package-item__body">
+              <p>3 tot 6 flessen</p>
+              <h3>Gin, tonic &amp; bites</h3>
+              <span>Een frisse gin, goede tonic en snacks voor een borrelmoment.</span>
+            </div>
+            <a href="tel:+31644999844" aria-label="Bespreek het conceptpakket Gin, tonic en bites">Bespreek dit idee</a>
+          </article>
+        </div>
+      </div>
+      <div class="shell packages__note">
+        <p>Deze pakketten zijn voorstellen voor de webshop. Inhoud, prijs en levering worden per feest afgestemd.</p>
+      </div>
+    </section>
+
+    <section class="section delivery" id="bezorgen" aria-labelledby="delivery-title">
+      <div class="shell delivery__grid">
+        <div class="delivery__copy">
+          <p class="section-kicker">Afhalen of bezorgen</p>
+          <h2 id="delivery-title">Hoe wil je de dranken ontvangen?</h2>
+          <p class="section-intro">De winkel ligt midden in Rozenburg. Haal je bestelling op of laat hem lokaal naar huis brengen.</p>
+
+          <div class="service-list">
+            <article class="service-item">
+              <div class="service-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 10h16v10H4z"></path><path d="M7 10V6h10v4M9 14h6"></path></svg>
+              </div>
+              <div>
+                <h3>Afhalen in de winkel</h3>
+                <p>Raadhuisplein 6 in Rozenburg. Bel voor de actuele openingstijden en een afhaaltijd.</p>
+                <a href="https://www.google.com/maps/search/?api=1&query=Raadhuisplein%206%2C%20Rozenburg">Route naar de winkel</a>
+              </div>
+            </article>
+            <article class="service-item">
+              <div class="service-item__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M3 6h11v11H3zM14 10h4l3 3v4h-7z"></path><circle cx="7" cy="18" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>
+              </div>
+              <div>
+                <h3>Lokaal bezorgen</h3>
+                <p>Binnen Rozenburg. Het bezorgmoment en de kosten worden bij de bestelling bevestigd.</p>
+                <a href="tel:+31644999844">Vraag naar de bezorging</a>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <aside class="local-card" aria-label="Adres van De Gouden Kurk">
+          <div class="local-card__top">
+            <span>De Gouden Kurk</span>
+            <span>Rozenburg</span>
+          </div>
+          <div class="local-card__map">
+            <img src="assets/map-raadhuisplein.png" width="768" height="768" alt="OpenStreetMap-kaart van het Raadhuisplein in Rozenburg">
+            <span class="local-card__marker" aria-hidden="true"><i></i></span>
+            <a class="local-card__map-link" href="https://www.openstreetmap.org/?mlat=51.9048907&amp;mlon=4.2497368#map=18/51.9048907/4.2497368">Bekijk de kaart</a>
+            <a class="local-card__map-credit" href="https://www.openstreetmap.org/copyright">Kaartdata © OpenStreetMap-bijdragers</a>
+          </div>
+          <div class="local-card__address">
+            <p>Raadhuisplein 6</p>
+            <p>3181 CG Rozenburg</p>
+            <a href="tel:+31644999844">06 44999844</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="about" id="over-ons" aria-labelledby="about-title">
+      <div class="shell about__grid">
+        <div class="about__medallion" aria-hidden="true">
+          <span>340+</span>
+          <small>spiritualiën</small>
+          <i></i>
+        </div>
+        <div class="about__copy">
+          <p class="section-kicker">De winkel</p>
+          <h2 id="about-title">Groot in dranken. Dichtbij voor een goed advies.</h2>
+          <p>De Gouden Kurk opende begin 2026 in het voormalige pand van De Tuinwijzer aan het Raadhuisplein. Er staan ruim 340 spiritualiën, van bekende whisky en gin tot likeuren en speciale flessen die je niet in elke supermarkt vindt.</p>
+          <p>Naast de slijterij vind je een supermarkt met onder meer wijn, bier en zwak-alcoholische dranken. Eén adres voor de snelle boodschap en voor een goed gesprek over de fles die je zoekt.</p>
+          <a class="text-link" href="#contact">Bekijk de winkelgegevens</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact__grid">
+        <div>
+          <p class="section-kicker section-kicker--light">Kom langs</p>
+          <h2 id="contact-title">Raadhuisplein 6<br>3181 CG Rozenburg</h2>
+          <a class="contact__phone" href="tel:+31644999844">06 44999844</a>
+          <a class="button button--gold" href="https://www.google.com/maps/search/?api=1&query=Raadhuisplein%206%2C%20Rozenburg">Open in Google Maps</a>
+        </div>
+        <div class="contact-card">
+          <p class="section-kicker">Openingstijden</p>
+          <h3>Even bellen voor de juiste tijd?</h3>
+          <p>De openingstijden kunnen per dag verschillen. Bel vooraf, dan weet je zeker dat iemand je dranken klaarzet.</p>
+          <a href="tel:+31644999844">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.2 3.5 10 8l-2 2c1.2 2.8 3.2 4.8 6 6l2-2 4.5 2.8c.3.2.5.5.5.9 0 2-1.6 3.3-3.6 3.3C9.8 21 3 14.2 3 6.6 3 4.6 4.3 3 6.3 3c.3 0 .6.2.9.5Z"></path></svg>
+            Bel de slijterij
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell site-footer__top">
+      <a class="brand brand--footer" href="#top" aria-label="De Gouden Kurk, terug naar boven">
+        <img class="brand__mark" src="assets/logo.svg" width="48" height="48" alt="">
+        <span class="brand__text">
+          <strong>De Gouden Kurk</strong>
+          <small>Drankenhandel in Rozenburg</small>
+        </span>
+      </a>
+      <nav aria-label="Voettekstnavigatie">
+        <a href="#assortiment">Assortiment</a>
+        <a href="#feestpakketten">Feestpakketten</a>
+        <a href="#bezorgen">Bezorgen &amp; ophalen</a>
+        <a href="#over-ons">De winkel</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <address class="footer-contact">
+        <strong>De Gouden Kurk</strong>
+        <span>Raadhuisplein 6</span>
+        <span>3181 CG Rozenburg</span>
+        <a href="tel:+31644999844">06 44999844</a>
+      </address>
+      <div class="footer-actions">
+        <button type="button" class="footer-link-button" data-open-legal>Privacy &amp; voorwaarden</button>
+        <button type="button" class="footer-link-button" data-open-credits>Beeldcredits</button>
+      </div>
+    </div>
+    <div class="shell site-footer__bottom">
+      <p>© 2026 De Gouden Kurk</p>
+      <p>Conceptwebsite. Productnamen, prijzen en beschikbaarheid zijn demonstratiegegevens.</p>
+    </div>
+  </footer>
+
+  <dialog class="age-dialog" id="age-dialog" aria-labelledby="age-title" aria-describedby="age-copy">
+    <div id="age-main">
+      <img class="age-dialog__mark" src="assets/logo.svg" width="58" height="58" alt="">
+      <p class="section-kicker">Alleen voor 18-plussers</p>
+      <h2 id="age-title">Welkom bij De Gouden Kurk.</h2>
+      <p id="age-copy">Om alcohol online te bestellen moet je 18 jaar of ouder zijn.</p>
+      <div class="age-dialog__actions">
+        <button class="button button--gold" type="button" id="age-yes">Ja, ik ben 18 jaar of ouder</button>
+        <button class="button button--quiet" type="button" id="age-no">Ik ben jonger dan 18</button>
+      </div>
+      <p class="age-dialog__note">Bij afhalen of bezorgen controleren we je leeftijd opnieuw.</p>
+    </div>
+    <div id="age-underage" hidden>
+      <div class="age-dialog__mark age-dialog__mark--plain" aria-hidden="true">18+</div>
+      <h2 id="age-underage-title" tabindex="-1">Hier kun je niet online bestellen.</h2>
+      <p>Je kunt de website hier verlaten. In de winkel helpen wij je graag met dranken zonder alcohol.</p>
+      <a class="button button--ink" href="https://www.google.nl">Verlaat de website</a>
+    </div>
+  </dialog>
+
+  <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+    <div class="cart-dialog__header">
+      <div>
+        <p class="section-kicker" id="cart-kicker">Jouw selectie</p>
+        <h2 id="cart-title">Winkelmand</h2>
+      </div>
+      <button class="icon-button" type="button" data-close-cart aria-label="Winkelmand sluiten">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+      </button>
+    </div>
+    <p class="visually-hidden" id="cart-live" role="status" aria-live="polite"></p>
+
+    <div id="cart-view">
+      <div class="cart-empty" id="cart-empty" hidden>
+        <div class="cart-empty__mark" aria-hidden="true">GK</div>
+        <h3>Je mand is nog leeg.</h3>
+        <p>Kies een drank en zet hem in je mand.</p>
+        <button class="button button--ink" type="button" data-close-cart>Naar het assortiment</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-summary" id="cart-summary">
+        <div class="cart-summary__row">
+          <span>Subtotaal</span>
+          <strong id="cart-total">€ 0,00</strong>
+        </div>
+        <p>Bezorgkosten worden pas bij de definitieve bestelling berekend.</p>
+        <button class="button button--gold button--full" type="button" id="start-checkout">Naar afronden</button>
+      </div>
+    </div>
+
+    <form class="checkout" id="checkout-form" hidden>
+      <button class="checkout__back" type="button" id="back-to-cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg>
+        Terug naar mand
+      </button>
+
+      <section class="checkout-summary" aria-labelledby="checkout-summary-title">
+        <h3 id="checkout-summary-title">Jouw bestelling</h3>
+        <div id="checkout-summary-list"></div>
+        <div class="checkout-summary__total">
+          <span>Subtotaal</span>
+          <strong id="checkout-total">€ 0,00</strong>
+        </div>
+      </section>
+
+      <fieldset>
+        <legend>Hoe wil je de bestelling ontvangen?</legend>
+        <label class="choice-card">
+          <input type="radio" name="fulfillment" value="pickup" checked>
+          <span>
+            <strong>Afhalen</strong>
+            <small>Raadhuisplein 6, Rozenburg</small>
+          </span>
+        </label>
+        <label class="choice-card">
+          <input type="radio" name="fulfillment" value="delivery">
+          <span>
+            <strong>Bezorgen</strong>
+            <small>Binnen Rozenburg</small>
+          </span>
+        </label>
+      </fieldset>
+
+      <div id="delivery-fields" hidden>
+        <label for="name">Naam</label>
+        <input id="name" name="name" type="text" autocomplete="name" data-delivery-field>
+        <label for="email">E-mailadres</label>
+        <input id="email" name="email" type="email" autocomplete="email" data-delivery-field>
+        <label for="phone">Telefoonnummer</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" data-delivery-field>
+        <label for="postcode">Postcode</label>
+        <input id="postcode" name="postcode" type="text" inputmode="text" autocomplete="postal-code" placeholder="3181 CG" pattern="[0-9]{4} [A-Z]{2}" title="Bijvoorbeeld 3181 CG" data-delivery-field>
+        <label for="street">Straat en huisnummer</label>
+        <input id="street" name="street" type="text" autocomplete="street-address" placeholder="Voorbeeldstraat 1" data-delivery-field>
+        <label for="city">Plaats</label>
+        <input id="city" name="city" type="text" autocomplete="address-level2" placeholder="Rozenburg" data-delivery-field>
+      </div>
+
+      <label class="age-check">
+        <input type="checkbox" name="age-confirmation" required>
+        <span>Ik bevestig dat ik 18 jaar of ouder ben.</span>
+      </label>
+      <p class="age-check__note">Bij aflevering of afhalen vragen wij om een geldig identiteitsbewijs en controleren wij je leeftijd opnieuw.</p>
+
+      <p class="checkout__preview-note">Gebruik in deze preview geen echte persoonsgegevens. Er wordt niets verzonden of betaald.</p>
+      <button class="button button--gold button--full" type="submit">Bestelling controleren</button>
+    </form>
+
+    <div class="checkout-success" id="checkout-success" hidden>
+      <div class="checkout-success__mark" aria-hidden="true">GK</div>
+      <h3>De controle is klaar.</h3>
+      <p>Dit is een preview. Er is geen bestelling verzonden, geen betaling gevraagd en er zijn geen gegevens bewaard.</p>
+      <button class="button button--ink" type="button" data-close-cart>Terug naar de site</button>
+    </div>
+  </dialog>
+
+  <dialog class="legal-dialog" id="legal-dialog" aria-labelledby="legal-title">
+    <div class="legal-dialog__header">
+      <h2 id="legal-title">Privacy &amp; voorwaarden</h2>
+      <button class="icon-button" type="button" data-close-legal aria-label="Venster sluiten">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+      </button>
+    </div>
+    <div class="legal-dialog__body">
+      <p>Deze website is een conceptpreview. Er worden geen persoonsgegevens opgeslagen, geen analytics geladen en geen bestellingen of betalingen verwerkt.</p>
+      <p>De privacyverklaring, algemene voorwaarden en levervoorwaarden moeten vóór de livegang worden opgesteld en gecontroleerd.</p>
+      <p>Voor verkoop op afstand gelden de leeftijdseisen uit de Alcoholwet en het Alcoholbesluit. De leeftijd moet bij aankoop én bij aflevering worden vastgesteld. De huidige zelfverklaring is alleen geschikt voor deze preview.</p>
+      <p>Bronnen: <a href="https://wetten.overheid.nl/BWBR0002458/">Alcoholwet</a> en <a href="https://wetten.overheid.nl/BWBR0045211/">Alcoholbesluit</a>.</p>
+    </div>
+  </dialog>
+
+  <dialog class="legal-dialog credits-dialog" id="credits-dialog" aria-labelledby="credits-title">
+    <div class="legal-dialog__header">
+      <h2 id="credits-title">Beeldcredits</h2>
+      <button class="icon-button" type="button" data-close-credits aria-label="Venster sluiten">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+      </button>
+    </div>
+    <div class="legal-dialog__body">
+      <p>De productfoto's zijn hergebruikt uit Wikimedia Commons en Open Food Facts. De winkelafbeelding komt uit de lokale nieuwspublicatie Rodi. Rechten en eventuele aanpassingen worden vóór een definitieve livegang opnieuw gecontroleerd.</p>
+      <ul class="credits-list" id="credits-list"></ul>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

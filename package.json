@@ -1,0 +1,11 @@
+{
+  "name": "de-gouden-kurk-preview",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check script.js && node --check products.js && node --check server.js",
+    "test": "node --test"
+  }
+}

@@ -6,9 +6,9 @@ Statische websitepreview voor De Gouden Kurk aan het Raadhuisplein 6 in Rozenbur
 
 De preview is publiek via GitHub Pages:
 
-**https://jalvdbroek-ship-it.github.io/de-gouden-kurk-site/**
+**https://0xtsotsi.github.io/de-gouden-kurk-site-1/**
 
-De code staat in `jalvdbroek-ship-it/de-gouden-kurk-site`. Elke push naar `main` publiceert de website opnieuw via de workflow in `.github/workflows/pages.yml`.
+De code staat in `0xtsotsi/de-gouden-kurk-site-1`. Elke push naar `main` publiceert de website opnieuw via de workflow in `.github/workflows/pages.yml`.
 
 ## Lokaal bekijken
 
